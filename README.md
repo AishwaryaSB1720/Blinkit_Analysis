@@ -25,7 +25,7 @@ Chart’s Requirements
 6. Sales by Outlet Location:
 	Objective: Assess the geographic distribution of sales across different locations.
 7. All Metrics by Outlet Type:
-	Objective: Provide a comprehensive view of all key metrics (Total Sales, Average Sales, Number of 	Items, Average Rating) broken down by different outlet types.
+	Objective: Provide a comprehensive view of all key metrics (Total Sales, Average Sales, Number of Items, Average Rating) broken down by different outlet types.
 
 ALTER TABLE blinkit_data CHANGE `Item Fat Content` item_fat_content VARCHAR(50);
 ALTER TABLE blinkit_data CHANGE `Item Identifier` item_identifier VARCHAR(50);
